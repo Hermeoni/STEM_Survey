@@ -1,0 +1,107 @@
+html,
+
+@media
+  screen if (min-width: 700px) {
+    img.resposive (width: 200px;)
+}
+screen if (max width: 1250px) {
+  img. responsive (width: 800px;)
+}
+  
+  .image {
+    max-height: 50%;
+    height: auto;
+}
+
+
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 60px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+body {
+  background-color: #F6AEEF;
+  text-align: center;
+  font-family: 'Arvo', serif;
+  min-width: 320px;
+}
+
+header {
+  font-size: 20em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#form-outer {
+  background-colour: #E369FC;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 55%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 300px;
+  padding: 6px;
+  margin: 10px;
+  border: 2px solid #c0c0c0;
+  border-radius: 20px;
+}
+
+.userAffiliation,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 10px;
+}
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 20px;
+}
+
+.checkbox {
+  position: relative;
+  left: -40px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+  
+}
+
+
+
